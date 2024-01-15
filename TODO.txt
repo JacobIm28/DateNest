@@ -1,0 +1,13 @@
+Back End
+    - Ensure there's no duplicates in db
+
+
+Front End
+    - Style all the screens
+    - 
+
+
+Future Updates
+- make logo spin
+-login/auth
+  -face ID

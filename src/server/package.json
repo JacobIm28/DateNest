@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "env-cmd -f ./sample.env nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
